@@ -1,0 +1,29 @@
+.container {
+    min-height: 80vh;
+    background-color:black;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    border: solid 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 10px red;
+  }
+  
+  .card {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgb(50, 221, 164);
+  }
+  .no-arrow {
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+    appearance: none; 
+    padding-right: 25px;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M3.646 5.646a.5.5 0 0 1 .708 0L8 9.293l3.646-3.647a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.708z"/></svg>') no-repeat right center; /* Add custom arrow icon */
+    background-size: 18px auto;
+  }
+  
